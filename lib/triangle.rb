@@ -23,7 +23,7 @@ class Triangle
 
   class TriangleError < StandardError
     def message
-      "one or more side equal to 0, or non integer was used as an argument"
+      "one or more sides equal to 0"
     end
   end
 
