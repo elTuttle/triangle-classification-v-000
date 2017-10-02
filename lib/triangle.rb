@@ -21,7 +21,7 @@ class Triangle
     end
   end
 
-  class TriangleError < StandardError
+  class TriangleError < RangeError
     def message
     "one or more side equal to 0, or non integer was used as an argument"
   end
