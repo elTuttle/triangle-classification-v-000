@@ -28,4 +28,3 @@ class TriangleError < StandardError
     "one or more sides equal to 0 or does not follow Triangle inequality rule"
   end
 end
-
