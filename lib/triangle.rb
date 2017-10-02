@@ -23,7 +23,7 @@ class Triangle
       largest_side = @side_three
       small_side1 = @side_two
       small_side2 = @side_one
-    else 
+    else
       largest_side = @side_one
       small_side1 = @side_two
       small_side2 = @side_three
