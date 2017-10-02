@@ -1,4 +1,5 @@
 class Triangle
+  include TriangleError
   attr_reader :side_one, :side_two, :side_three, :equilateral, :isosceles, :scalene
 
   def initialize(side_one,side_two,side_three)
