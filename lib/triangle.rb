@@ -21,10 +21,11 @@ class Triangle
     end
   end
 
-  class TriangleError < StandardError
-    def message
-      "one or more sides equal to 0 or does not follow Triangle inequality rule"
-    end
-  end
-
 end
+
+class TriangleError < StandardError
+  def message
+    "one or more sides equal to 0 or does not follow Triangle inequality rule"
+  end
+end
+
