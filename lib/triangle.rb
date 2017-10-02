@@ -23,7 +23,7 @@ class Triangle
 
   class TriangleError < StandardError
     def message
-      "one or more sides equal to 0"
+      "one or more sides equal to 0 or does not follow Triangle inequality rule"
     end
   end
 
